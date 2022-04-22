@@ -1,0 +1,9 @@
+.cover__background {
+  background-image: url(../../../images/__background.svg);
+  position: relative;
+  object-fit: contain;
+  width: 1184px;
+  height: 740px;
+  margin: 0 auto;
+  z-index: 1;
+}

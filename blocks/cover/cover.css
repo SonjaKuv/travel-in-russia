@@ -1,0 +1,7 @@
+.cover {
+  position: relative;
+  width: 1184px;
+  margin: 0 auto;
+  height: fit-content;
+  box-sizing: content-box;
+}

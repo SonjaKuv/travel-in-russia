@@ -1,0 +1,6 @@
+.lead__image {
+  background-image: url(../../../images/__image.svg);
+  width: 984px;
+  height: 615px;
+  margin-top: 64px;
+}
