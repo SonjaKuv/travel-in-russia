@@ -3,3 +3,9 @@
   max-width: 484px;
   height: fit-content;
 }
+
+@media (max-width: 767px) {
+.place__paragraph {
+  margin: 0 16px;
+}
+}

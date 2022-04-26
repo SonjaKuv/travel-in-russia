@@ -1,13 +1,25 @@
 .header__lang-link {
   display: flex;
   max-width: fit-content;
-  font-size: 24px;
-  line-height: 28px;
   text-decoration: underline;
-  color: #fff;
   margin: auto 18px auto 0;
 }
 
 .header__lang-link:last-child {
 text-decoration: none;
+margin: auto 0;
+}
+
+@media (max-width: 767px) {
+.header__logo {
+  font-size: 18px;
+  line-height: 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+.header__logo {
+  font-size: 24px;
+  line-height: 28px;
+}
 }

@@ -1,8 +1,27 @@
 .place__title {
-  color: #fff;
   max-width: 460px;
   height: fit-content;
+  grid-area: title;
+}
+
+@media (max-width: 320px) {
+.place__title {
+  font-size: 32px;
+  line-height: 35px;
+  margin-left: 16px;
+}
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+.place__title {
+  font-size: 42px;
+  line-height: 46px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+.place__title {
   font-size: 72px;
   line-height: 76px;
-  grid-area: title;
+}
 }
