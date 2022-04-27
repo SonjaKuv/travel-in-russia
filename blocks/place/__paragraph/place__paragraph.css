@@ -2,10 +2,12 @@
   grid-area: paragraph;
   max-width: 484px;
   height: fit-content;
+  line-height: 29.34px;
+  font-size: 18px;
+  margin-top: 26px;
 }
 
-@media (max-width: 767px) {
-.place__paragraph {
-  margin: 0 16px;
+.place__paragraph:first-child {
+margin-top: 0;
 }
-}
+
