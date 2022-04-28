@@ -3,28 +3,24 @@
   height: 14px;
   font-size: 10px;
   line-height: 14px;
+  font-weight: 400;
 }
 
 @media (max-width: 320px) {
-.lead__caption {
-margin-left: 16px;
-}
+  .lead__caption {
+    margin-left: 16px;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 768px) {
-.lead__caption {
-margin-left: 24px;
-}
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-.lead__caption {
-margin-left: 48px;
-}
+  .lead__caption {
+    margin-left: 24px;
+  }
 }
 
-@media (min-width: 1025px) {
-.lead__caption {
-margin-left: 148px;
+@media (min-width: 769px) and (max-width: 984px) {
+  .lead__caption {
+    margin-left: 48px;
+  }
 }
-}
+

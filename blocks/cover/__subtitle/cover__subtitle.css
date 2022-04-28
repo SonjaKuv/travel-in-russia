@@ -1,47 +1,43 @@
 .cover__subtitle {
-  position: absolute;
-  z-index: 3;
+  position: relative;
   text-align: center;
-  font-weight: normal;
+  font-weight:400;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
+  grid-area: 'cover__subtitle';
 }
 
-@media (max-width: 500px) {
-.cover__subtitle {
-  font-size: 14px;
-  line-height: 16px;
-  max-width: 288px;
-  top: 119px;
-}
+@media (max-width: 600px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+  }
 }
 
-@media (min-width: 501px) and (max-width: 768px) {
-.cover__subtitle {
-  font-size: 18px;
-  line-height: 22px;
-  max-width: 360px;
-  top: 299px;
-}
+@media (min-width: 601px) and (max-width: 768px) {
+  .cover__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 360px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-.cover__subtitle {
-  font-size: 18px;
-  line-height: 22px;
-  max-width: 360px;
-  top: 379px;
-}
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+  }
 }
 
 @media (min-width: 1025px) {
-.cover__subtitle {
-  font-size: 18px;
-  line-height: 22px;
-  max-width: 360px;
-  top: 429px;
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+  }
 }
-}
-

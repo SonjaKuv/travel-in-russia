@@ -1,19 +1,25 @@
 .intro__title {
-  font-weight: bold;
+  font-weight: 900;
 }
 
-@media (max-width: 767px) {
-.intro__title {
-  font-size: 32px;
-  line-height: 35px;
-  max-width: 220px;
+@media (max-width: 320px) {
+  .intro__title {
+    max-width: 220px;
+  }
 }
+
+
+@media (max-width: 767px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
 
 @media (min-width: 768px) {
-.intro__title {
-  font-size: 54px;
-  line-height: 58px;
-  max-width: 690px;
-}
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 690px;
+  }
 }

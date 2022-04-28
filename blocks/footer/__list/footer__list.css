@@ -1,16 +1,16 @@
 .footer__list {
-display: flex;
+  display: flex;
 }
 
 @media (max-width: 767px) {
-.footer__list:not(:last-child) {
-  margin-bottom: 32px;
-  max-width: 158px;
-}
+  .footer__list:not(:last-child) {
+    margin-bottom: 32px;
+    max-width: 158px;
+  }
 }
 
 @media (min-width: 768px) {
-.footer__list:not(:last-child) {
-  margin-right: 18px;
-}
+  .footer__list:not(:last-child) {
+    margin-right: 18px;
+  }
 }

@@ -1,25 +1,24 @@
 .header__lang-link {
   display: flex;
-  max-width: fit-content;
-  text-decoration: underline;
   margin: auto 18px auto 0;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .header__lang-link:last-child {
-text-decoration: none;
-margin: auto 0;
+  margin: auto 0;
 }
 
 @media (max-width: 767px) {
-.header__logo {
-  font-size: 18px;
-  line-height: 20px;
-}
+  .header__logo {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
 
 @media (min-width: 768px) {
-.header__logo {
-  font-size: 24px;
-  line-height: 28px;
-}
+  .header__logo {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

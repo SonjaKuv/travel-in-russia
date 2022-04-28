@@ -3,32 +3,32 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 24px;
-  
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 @media (max-width: 767px) {
-.footer {
-  padding-top: 64px;
-  padding-left: 16px;
-  padding-right: auto;
-  min-height: 310px;
-  max-width: 183px;
-}
+  .footer {
+    padding-top: 64px;
+    padding-left: 16px;
+    min-height: 310px;
+    max-width: 183px;
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-.footer {
-  padding-top: 88px;
-  padding-left: 24px;
-  padding-right: 24px;
-}
+  .footer {
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 
 @media (min-width: 1024px) {
-.footer {
-  padding-top: 92px;
-  padding-left: 48px;
-  padding-right: 48px;
-  max-width: 1184px;
-}
+  .footer {
+    padding-top: 92px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
 }
