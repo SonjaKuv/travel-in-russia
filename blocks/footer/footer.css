@@ -9,10 +9,9 @@
 
 @media (max-width: 767px) {
   .footer {
+    flex-direction: column;
     padding-top: 64px;
     padding-left: 16px;
-    min-height: 310px;
-    max-width: 183px;
     margin: 0;
   }
 }

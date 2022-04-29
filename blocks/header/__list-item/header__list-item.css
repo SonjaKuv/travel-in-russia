@@ -1,0 +1,8 @@
+.header__list-item {
+  display: flex;
+  margin: auto 18px auto 0;
+}
+
+.header__list-item:last-child {
+  margin: auto 0;
+}

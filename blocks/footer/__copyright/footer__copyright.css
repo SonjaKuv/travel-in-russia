@@ -3,13 +3,12 @@
   font-size: 14px;
   font-weight: 400;
   max-width: fit-content;
-  height: fit-content;
 }
 
 @media (max-width: 767px) {
   .footer__copyright {
     line-height: 14px;
-    align-self: end;
+    padding-top: 48px;
   }
 }
 

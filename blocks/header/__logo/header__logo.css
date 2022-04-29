@@ -1,7 +1,6 @@
 .header__logo {
   display: flex;
   margin-left: 0;
-  max-width: 176px;
 }
 
 @media (max-width: 767px) {

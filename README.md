@@ -13,7 +13,7 @@
 * Медиазапросы;
 * Оптимизация шрифтов;
 
-ссылку на GitHub Pages: https://sonjakuv.github.io/travel-in-russia/
+Ссылка проекта на GitHub Pages: https://sonjakuv.github.io/travel-in-russia/
 
 #### Планы по доработке проекта:
 1. подключить другие шрифты в page.css;
