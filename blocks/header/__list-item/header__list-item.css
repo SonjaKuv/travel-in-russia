@@ -1,8 +1,21 @@
 .header__list-item {
   display: flex;
-  margin: auto 18px auto 0;
+  margin-right: 18px;
+  margin-bottom: auto;
 }
 
 .header__list-item:last-child {
-  margin: auto 0;
+  margin-right: 0;
+}
+
+@media (max-width: 320px) {
+  .header__list-item {
+    margin-top: 14px;
+  }
+}
+
+@media (min-width: 321px) {
+  .header__list-item {
+    margin-top: 18px;
+  }
 }

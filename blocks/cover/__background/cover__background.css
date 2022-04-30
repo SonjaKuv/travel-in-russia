@@ -5,9 +5,6 @@
   background-position: center;
   margin: 0 auto;
   text-decoration: none;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 32px;
 }
 
 .cover__background::before {
@@ -29,7 +26,6 @@
 @media (max-width: 600px) {
   .cover__background {
     min-height: 200px;
-    gap: 16px;
   }
 }
 

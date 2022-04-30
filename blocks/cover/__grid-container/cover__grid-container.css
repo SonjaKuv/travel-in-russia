@@ -1,0 +1,30 @@
+.cover__grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 32px;
+}
+
+@media (max-width: 600px) {
+  .cover__grid-container {
+    gap: 16px;
+    padding-top: 33px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .cover__grid-container {
+    padding-top: 115px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cover__grid-container {
+    padding-top: 195px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .cover__grid-container {
+    padding-top: 245px;
+  }
+}

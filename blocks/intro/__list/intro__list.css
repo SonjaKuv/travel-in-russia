@@ -6,3 +6,9 @@
   margin-top: 33px;
   font-weight: 400;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .intro__list {
+    margin-top: 26px;
+  }
+}
