@@ -5,6 +5,7 @@
   font-weight: 900;
   margin-left: auto;
   margin-right: auto;
+  grid-area: tit;
 }
 
 @media (max-width: 600px) {

@@ -5,6 +5,13 @@
   background-position: center;
   margin: 0 auto;
   text-decoration: none;
+  display: grid;
+  grid-template-areas:
+    "..."
+    "tit"
+    "subtit"
+    ".";
+  gap: 32px;
 }
 
 .cover__background::before {
@@ -26,23 +33,28 @@
 @media (max-width: 600px) {
   .cover__background {
     min-height: 200px;
+    align-content: center;
+    gap: 16px;
   }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
   .cover__background {
     min-height: 480px;
+    align-content: center;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .cover__background {
     min-height: 640px;
+    align-content: center;
   }
 }
 
 @media (min-width: 1025px) {
   .cover__background {
     min-height: 740px;
+    align-content: center;
   }
 }
